@@ -1,0 +1,32 @@
+{
+  "team": {
+    // primitive
+    "count": 10,
+    "user": [
+      {
+        "id": "1",
+        "name": "Alex",
+        "address": {
+          "city": "Kiev",
+          "street": "Street1"
+        }
+      },
+      {
+        "id": "2",
+        "name": "Kolya",
+        "address": {
+          "city": "Kiev",
+          "street": "Street2"
+        }
+      },
+      {
+        "id": "3",
+        "name": "Vasya",
+        "address": {
+          "city": "Kiev",
+          "street": "Street3"
+        }
+      }
+    ]
+  }
+}

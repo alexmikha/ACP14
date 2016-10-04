@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- x xsd xml schema definition xsd -->
+<team>
+    <user id="1" shortName="SB">
+        <name>Alex</name>
+        <birth>1992-19-05</birth>
+        <salary>3000</salary>
+        <address>
+            <city>Kiev</city>
+            <street>Street1</street>
+            <houseNumber>1</houseNumber>
+        </address>
+    </user>
+    <user id="2" shortName="SB">
+        <name>Kolya</name>
+        <birth>1991-18-04</birth>
+        <salary>3200</salary>
+        <address>
+            <city>Kiev</city>
+            <street>Street2</street>
+            <houseNumber>2</houseNumber>
+        </address>
+    </user>
+    <user id="3" shortName="SB">
+        <name>Lolya</name>
+        <birth>1990-17-03</birth>
+        <salary>3300</salary>
+        <address>
+            <city>Kiev</city>
+            <street>Street3</street>
+            <houseNumber>3</houseNumber>
+        </address>
+    </user>
+</team>
