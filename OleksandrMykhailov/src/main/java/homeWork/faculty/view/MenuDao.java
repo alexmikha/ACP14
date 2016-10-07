@@ -145,7 +145,7 @@ public class MenuDao {
                 ManagementFaculty.getInstance();
                 break;
             case "2":
-                faculty.connection.commit();
+                faculty.connection.setAutoCommit(false);
                 exitFromMenu();
                 break;
         }
