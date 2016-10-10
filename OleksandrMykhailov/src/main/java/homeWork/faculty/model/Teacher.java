@@ -8,13 +8,13 @@ public class Teacher {
     private int id;
     private String teacherName;
     private int experience;
-    private int subject_id;
+    private int subjectId;
 
-    public Teacher(int id, String teacherName, int experience, int subject_id) {
+    public Teacher(int id, String teacherName, int experience, int subjectId) {
         this.id = id;
         this.teacherName = teacherName;
         this.experience = experience;
-        this.subject_id = subject_id;
+        this.subjectId = subjectId;
     }
 
     public Teacher() {
@@ -46,12 +46,12 @@ public class Teacher {
         this.experience = experience;
     }
 
-    public int getSubject_id() {
-        return subject_id;
+    public int getSubjectId() {
+        return subjectId;
     }
 
-    public void setSubject_id(int subject_id) {
-        this.subject_id = subject_id;
+    public void setSubjectId(int subjectId) {
+        this.subjectId = subjectId;
     }
 
     @Override

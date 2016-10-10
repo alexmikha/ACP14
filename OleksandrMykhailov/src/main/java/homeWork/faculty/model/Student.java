@@ -10,26 +10,21 @@ public class Student {
 
     private int id;
     private String studentName;
-    private double avg_score;
-    private int group_id;
+    private double avgScore;
+    private int groupId;
 
-    public Student(String studentName, double avg_score, int group_id) {
-        this.id = id;
+    public Student(String studentName, double avgScore, int groupId) {
+ //       this.id = id;
         this.studentName = studentName;
-        this.avg_score = avg_score;
-        this.group_id = group_id;
-    }
-
-
-    public Student() {
-
+        this.avgScore = avgScore;
+        this.groupId = groupId;
     }
 
     public Student(ResultSet rs) throws SQLException {
         setId(rs.getInt(1));
         setStudentName(rs.getString(2));
-        setAvg_score(rs.getDouble(3));
-        setGroup_id(rs.getInt(4));
+        setAvgScore(rs.getDouble(3));
+        setGroupId(rs.getInt(4));
     }
 
     public int getId() {
@@ -48,20 +43,20 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public double getAvg_score() {
-        return avg_score;
+    public double getAvgScore() {
+        return avgScore;
     }
 
-    public void setAvg_score(double avg_score) {
-        this.avg_score = avg_score;
+    public void setAvgScore(double avgScore) {
+        this.avgScore = avgScore;
     }
 
-    public int getGroup_id() {
-        return group_id;
+    public int getGroupId() {
+        return groupId;
     }
 
-    public void setGroup_id(int group_id) {
-        this.group_id = group_id;
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
     }
 
     @Override
@@ -69,8 +64,8 @@ public class Student {
         return "Student{" +
                 "id=" + id +
                 ", studentName='" + studentName + '\'' +
-                ", avg_score=" + avg_score +
-                ", group_id=" + group_id +
+                ", avg_score=" + avgScore +
+                ", group_id=" + groupId +
                 '}';
     }
 }

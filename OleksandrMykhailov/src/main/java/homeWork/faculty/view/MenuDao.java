@@ -1,5 +1,6 @@
 package homeWork.faculty.view;
 
+import homeWork.faculty.dao.StudentDaoImpl;
 import homeWork.faculty.model.Student;
 import homeWork.faculty.utilsDao.ManagementFaculty;
 
@@ -12,34 +13,33 @@ import java.sql.SQLException;
  * Created by mi on 07.10.2016.
  */
 public class MenuDao {
-
+ //   public static final Logger logger = Logger.getLogger(String.valueOf(MenuDao.class));
     private ManagementFaculty faculty = new ManagementFaculty();
-
+    private StudentDaoImpl studentDaoImpl = new StudentDaoImpl();
     private BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     int id;
     private String studentName;
     private double avg;
-    private int group_id;
+    private int groupId;
 
     public MenuDao() throws SQLException, ClassNotFoundException {
     }
 
     public int menu() throws IOException, SQLException, ClassNotFoundException {
-        Student student = new Student(studentName, avg, group_id);
+        Student student = new Student(studentName, avg, groupId);
         System.out.println();
         System.out.println("Select:");
-
         System.out.println(1 + " Get a list of all students");
         System.out.println(2 + " Get a list of groups");
         System.out.println(3 + " Get a list of teachers");
         System.out.println(4 + " Get a list of subjects");
-        System.out.println(5 + " Add a student in DAO");
-        System.out.println(6 + " Add a group in DAO");
-        System.out.println(7 + " Add a teacher in DAO");
-        System.out.println(8 + " Add a subject in DAO");
+        System.out.println(5 + " Add a student in DB");
+        System.out.println(6 + " Add a group in DB");
+        System.out.println(7 + " Add a teacher in DB");
+        System.out.println(8 + " Add a subject in DB");
         System.out.println(9 + " Get a list of teachers min experience");
         System.out.println(10 + " Get a list of teachers max experience");
-        System.out.println(11 + " Delete student from DAO");
+        System.out.println(11 + " Delete student from DB");
         System.out.println(12 + " ");
         System.out.println(13 + " ");
         System.out.println(14 + " ");
@@ -48,28 +48,25 @@ public class MenuDao {
         String menu = bf.readLine();
         switch (menu) {
             case "1":
-                for (int i = 0; i < faculty.getStudents().size(); i++) {
-                    System.out.println(faculty.getStudents().get(i));
+                for (int i = 0; i < studentDaoImpl.getStudents().size(); i++) {
+                    System.out.println(studentDaoImpl.getStudents().get(i));
                 }
-//                System.out.println(faculty.getStudents());
                 break;
             case "2":
                 for (int i = 0; i < faculty.getGroup().size(); i++) {
                     System.out.println(faculty.getGroup().get(i));
                 }
-                //  System.out.println(managementFaculty.getGroup().);
                 break;
             case "3":
                 for (int i = 0; i < faculty.getTeacher().size(); i++) {
                     System.out.println(faculty.getTeacher().get(i));
                 }
-//                System.out.println(faculty.getTeacher());
+
                 break;
             case "4":
                 for (int i = 0; i < faculty.getSubject().size(); i++) {
                     System.out.println(faculty.getSubject().get(i));
                 }
-//                System.out.println(faculty.getSubject());
                 break;
             case "5":
                 System.out.println("Enter studentName");
@@ -78,30 +75,29 @@ public class MenuDao {
 
                 System.out.println("Enter avg_score");
                 avg = Double.parseDouble(bf.readLine());
-                student.setAvg_score(avg);
+                student.setAvgScore(avg);
 
                 System.out.println("Enter group_id");
-                group_id = Integer.parseInt(bf.readLine());
-                student.setGroup_id(group_id);
+                groupId = Integer.parseInt(bf.readLine());
+                student.setGroupId(groupId);
 
-                faculty.addStudentToDao(student);
-                System.out.println("Student was added in DB");
+                studentDaoImpl.addStudentToDB(student);
+                System.out.println("Student " + studentName + " was added in DB");
 
                 break;
             case "6":
-                System.out.println(faculty.addTeachertToDao());
+                System.out.println(faculty.addTeachertToDB());
                 break;
             case "7":
-                System.out.println(faculty.addSubjectToDao());
+                System.out.println(faculty.addSubjectToDB());
                 break;
             case "8":
-                System.out.println(faculty.addGroupToDao());
+                System.out.println(faculty.addGroupToDB());
                 break;
             case "9":
                 for (int i = 0; i < faculty.getTeacherMinExperience().size(); i++) {
                     System.out.println("min expiriance is " + faculty.getTeacherMinExperience().get(i));
                 }
-//                System.out.println(faculty.getTeacherMinExpiriance());
                 break;
             case "10":
                 for (int i = 0; i < faculty.getTeacherMinExperience().size(); i++) {
@@ -112,8 +108,8 @@ public class MenuDao {
                 System.out.println("Enter id for delete the student");
                 id = Integer.parseInt(bf.readLine());
                 student.setId(id);
-                faculty.deleteStudent(student);
-                System.out.println("Student was deleted from DB");
+                studentDaoImpl.deleteStudent(student);
+                System.out.println("Student " + studentName + " was deleted from DB");
                 break;
             case "12":
 

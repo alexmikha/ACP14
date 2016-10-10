@@ -1,7 +1,6 @@
 package homeWork.faculty.utilsDao;
 
 import homeWork.faculty.model.Group;
-import homeWork.faculty.model.Student;
 import homeWork.faculty.model.Subject;
 import homeWork.faculty.model.Teacher;
 
@@ -19,9 +18,9 @@ public class ManagementFaculty {
     public static final String PASSWORD = "root";
 
     public Connection connection;
-    Statement statement;
-    PreparedStatement prstmt;
-    ResultSet resultSet;
+    public Statement statement;
+    public PreparedStatement prstmt;
+    public ResultSet resultSet;
 
     private static ManagementFaculty instance;
 //    Collection<Student> students = new ArrayList<>();
@@ -49,26 +48,26 @@ public class ManagementFaculty {
         return instance;
     }
 
-    public List<Student> getStudents() throws SQLException {
-        List<Student> students = new ArrayList<>();
-        String studentsQuery = "SELECT id, studentName, avg_score, group_id FROM students";
-        try {
-            statement = connection.createStatement();
-            resultSet = statement.executeQuery(studentsQuery);
-            while (resultSet.next()) {
-                Student student = new Student(resultSet);
-//                student.setId(resultSet.getInt(1));
-//                student.setStudentName(resultSet.getString(2));
-//                student.setAvg_score(resultSet.getDouble(3));
-//                student.setGroup_id(resultSet.getInt(4));
-                students.add(student);
-            }
-        } finally {
-            ConnectionClose.closeResultSet(resultSet);
-            ConnectionClose.closeStatement(statement);
-        }
-        return students;
-    }
+//    public List<Student> getStudents() throws SQLException {
+//        List<Student> students = new ArrayList<>();
+//        String studentsQuery = "SELECT id, studentName, avg_score, group_id FROM students";
+//        try {
+//            statement = connection.createStatement();
+//            resultSet = statement.executeQuery(studentsQuery);
+//            while (resultSet.next()) {
+//                Student student = new Student(resultSet);
+////                student.setId(resultSet.getInt(1));
+////                student.setStudentName(resultSet.getString(2));
+////                student.setAvg_score(resultSet.getDouble(3));
+////                student.setGroup_id(resultSet.getInt(4));
+//                students.add(student);
+//            }
+//        } finally {
+//            ConnectionClose.closeResultSet(resultSet);
+//            ConnectionClose.closeStatement(statement);
+//        }
+//        return students;
+//    }
 
 
     public List<Group> getGroup() throws SQLException {
@@ -101,7 +100,7 @@ public class ManagementFaculty {
                 teacher.setId(resultSet.getInt(1));
                 teacher.setTeacherName(resultSet.getString(2));
                 teacher.setExperience(resultSet.getInt(3));
-                teacher.setSubject_id(resultSet.getInt(4));
+                teacher.setSubjectId(resultSet.getInt(4));
                 teachers.add(teacher);
             }
         } finally {
@@ -131,24 +130,24 @@ public class ManagementFaculty {
         return subjects;
     }
 
-    @SuppressWarnings("JpaQueryApiInspection")
-    public void addStudentToDao(Student student) throws SQLException {
-        PreparedStatement prstmt = null;
-        String addStudent = "INSERT INTO students(studentName, avg_score, group_id) VALUE (?,?,?)";
-        try {
-            prstmt = connection.prepareStatement(addStudent);
-            prstmt.setString(1, student.getStudentName());
-            prstmt.setDouble(2, student.getAvg_score());
-            prstmt.setInt(3, student.getGroup_id());
-            prstmt.execute();
+//    @SuppressWarnings("JpaQueryApiInspection")
+//    public void addStudentToDao(Student student) throws SQLException {
+//        PreparedStatement prstmt = null;
+//        String addStudent = "INSERT INTO students(studentName, avg_score, group_id) VALUE (?,?,?)";
+//        try {
+//            prstmt = connection.prepareStatement(addStudent);
+//            prstmt.setString(1, student.getStudentName());
+//            prstmt.setDouble(2, student.getAvg_score());
+//            prstmt.setInt(3, student.getGroup_id());
+//            prstmt.execute();
+//
+//        } finally {
+//            ConnectionClose.closePreparedStatement(prstmt);
+//        }
+//    }
 
-        } finally {
-            ConnectionClose.closePreparedStatement(prstmt);
-        }
-    }
-
     @SuppressWarnings("JpaQueryApiInspection")
-    public boolean addTeachertToDao() throws SQLException {
+    public boolean addTeachertToDB() throws SQLException {
         Teacher teacher = new Teacher(1, "Shpak", 20, 2);
         PreparedStatement prstmt = null;
         try {
@@ -156,7 +155,7 @@ public class ManagementFaculty {
                     "INSERT INTO teachers(teacherName, experience, subject_id) VALUE (?, ?, ?)");
             prstmt.setString(1, teacher.getTeacherName());
             prstmt.setInt(2, teacher.getExperience());
-            prstmt.setInt(3, teacher.getSubject_id());
+            prstmt.setInt(3, teacher.getSubjectId());
             prstmt.execute();
         } finally {
             ConnectionClose.closePreparedStatement(prstmt);
@@ -165,7 +164,7 @@ public class ManagementFaculty {
     }
 
     @SuppressWarnings("JpaQueryApiInspection")
-    public boolean addSubjectToDao() throws SQLException {
+    public boolean addSubjectToDB() throws SQLException {
         Subject subject = new Subject(1, "philosophy", "study philosophy");
         PreparedStatement prstmt = null;
         try {
@@ -182,7 +181,7 @@ public class ManagementFaculty {
     }
 
     @SuppressWarnings("JpaQueryApiInspection")
-    public boolean addGroupToDao() throws SQLException {
+    public boolean addGroupToDB() throws SQLException {
         Group group = new Group(1, "fourth");
         PreparedStatement prstmt = null;
         try {
@@ -235,17 +234,17 @@ public class ManagementFaculty {
         return teachers;
     }
 
-    public void deleteStudent(Student student) throws SQLException {
-        PreparedStatement prstmt = null;
-        try {
-            prstmt = connection.prepareStatement(
-                    "DELETE FROM students WHERE id=?");
-            prstmt.setInt(1, student.getId());
-            prstmt.execute();
-        } finally {
-            ConnectionClose.closePreparedStatement(prstmt);
-        }
-    }
+//    public void deleteStudent(Student student) throws SQLException {
+//        PreparedStatement prstmt = null;
+//        try {
+//            prstmt = connection.prepareStatement(
+//                    "DELETE FROM students WHERE id=?");
+//            prstmt.setInt(1, student.getId());
+//            prstmt.execute();
+//        } finally {
+//            ConnectionClose.closePreparedStatement(prstmt);
+//        }
+//    }
 }
 
 
