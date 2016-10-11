@@ -1,6 +1,6 @@
 package homeWork.faculty.dao;
 
-import homeWork.faculty.model.Student;
+import homeWork.faculty.controller.ControllerDao;
 import homeWork.faculty.model.Teacher;
 
 import java.sql.SQLException;
@@ -9,19 +9,26 @@ import java.util.List;
 /**
  * Created by mi on 08.10.2016.
  */
-public class TeacherDaoImpl implements TeacherDao {
+public class TeacherDaoImpl implements ControllerDao<Teacher> {
+
     @Override
-    public List<Teacher> getTeacher() throws SQLException {
+    public List getAll() throws SQLException {
         return null;
     }
 
     @Override
-    public boolean addTeacherToDB(Student student) throws SQLException {
+    public boolean insertEntity(Teacher entity) throws SQLException {
         return false;
     }
 
     @Override
-    public boolean deleteTeacher(Student student) throws SQLException {
+    public boolean deleteEntity(Teacher entity) throws SQLException {
         return false;
     }
+
+    @Override
+    public boolean updateEntity(Teacher entity) throws SQLException {
+        return false;
+    }
+
 }

@@ -27,6 +27,10 @@ public class Student {
         setGroupId(rs.getInt(4));
     }
 
+    public Student() {
+
+    }
+
     public int getId() {
         return id;
     }
@@ -64,7 +68,7 @@ public class Student {
         return "Student{" +
                 "id=" + id +
                 ", studentName='" + studentName + '\'' +
-                ", avg_score=" + avgScore +
+                ", avgScore=" + avgScore +
                 ", group_id=" + groupId +
                 '}';
     }

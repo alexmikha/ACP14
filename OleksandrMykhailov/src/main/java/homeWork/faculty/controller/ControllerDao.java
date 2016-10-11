@@ -1,4 +1,4 @@
-package homeWork.faculty.dao;
+package homeWork.faculty.controller;
 
 import java.sql.SQLException;
 import java.util.List;

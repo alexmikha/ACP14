@@ -8,12 +8,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * Created by mi on 07.10.2016.
  */
 public class MenuDao {
- //   public static final Logger logger = Logger.getLogger(String.valueOf(MenuDao.class));
+    //   public static final Logger logger = Logger.getLogger(String.valueOf(MenuDao.class));
     private ManagementFaculty faculty = new ManagementFaculty();
     private StudentDaoImpl studentDaoImpl = new StudentDaoImpl();
     private BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -40,7 +41,7 @@ public class MenuDao {
         System.out.println(9 + " Get a list of teachers min experience");
         System.out.println(10 + " Get a list of teachers max experience");
         System.out.println(11 + " Delete student from DB");
-        System.out.println(12 + " ");
+        System.out.println(12 + " Update student from DB");
         System.out.println(13 + " ");
         System.out.println(14 + " ");
         System.out.println(15 + " ");
@@ -48,8 +49,8 @@ public class MenuDao {
         String menu = bf.readLine();
         switch (menu) {
             case "1":
-                for (int i = 0; i < studentDaoImpl.getStudents().size(); i++) {
-                    System.out.println(studentDaoImpl.getStudents().get(i));
+                for (int i = 0; i < studentDaoImpl.getAll().size(); i++) {
+                    System.out.println(studentDaoImpl.getAll().get(i));
                 }
                 break;
             case "2":
@@ -73,7 +74,7 @@ public class MenuDao {
                 studentName = bf.readLine();
                 student.setStudentName(studentName);
 
-                System.out.println("Enter avg_score");
+                System.out.println("Enter avgScore");
                 avg = Double.parseDouble(bf.readLine());
                 student.setAvgScore(avg);
 
@@ -81,7 +82,7 @@ public class MenuDao {
                 groupId = Integer.parseInt(bf.readLine());
                 student.setGroupId(groupId);
 
-                studentDaoImpl.addStudentToDB(student);
+                studentDaoImpl.insertEntity(student);
                 System.out.println("Student " + studentName + " was added in DB");
 
                 break;
@@ -108,12 +109,29 @@ public class MenuDao {
                 System.out.println("Enter id for delete the student");
                 id = Integer.parseInt(bf.readLine());
                 student.setId(id);
-                studentDaoImpl.deleteStudent(student);
+                studentDaoImpl.deleteEntity(student);
                 System.out.println("Student " + studentName + " was deleted from DB");
                 break;
             case "12":
+                List<Student> studentList = studentDaoImpl.getAll();
 
+                System.out.println("Enter studentName");
+                studentName = bf.readLine();
+                student.setStudentName(studentName);
 
+                System.out.println("Enter avgScore");
+                avg = Double.parseDouble(bf.readLine());
+                student.setAvgScore(avg);
+
+                System.out.println("Enter group_id");
+                groupId = Integer.parseInt(bf.readLine());
+                student.setGroupId(groupId);
+
+                System.out.println("Enter id");
+                id = Integer.parseInt(bf.readLine());
+                student.setId(id);
+                studentDaoImpl.updateEntity(student);
+                System.out.println("Student " + studentName + " was updated in DB");
                 break;
             case "13":
 

@@ -1,0 +1,89 @@
+2016-10-11 20:54:24 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 20:55:10 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:05:53 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:08:46 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:12:16 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:28:28 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:28:28 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:28:28 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:33:55 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:33:55 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:33:55 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:35:01 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:35:01 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:35:01 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:35:25 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:35:25 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:35:25 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:38:00 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:38:00 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:38:00 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:40:29 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:40:29 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:40:29 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:41:26 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:41:26 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:41:26 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:43:18 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 21:43:18 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 21:43:18 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:27:29 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:27:29 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:27:29 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:28:19 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:29:50 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:29:50 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-11 22:35:44 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:35:44 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-11 22:35:44 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:35:44 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:36:14 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:36:14 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:14 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-11 22:36:15 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:36:15 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-11 22:36:15 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:36:15 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-11 22:36:52 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:36:52 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-11 22:36:52 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-11 22:36:52 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB

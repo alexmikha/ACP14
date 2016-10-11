@@ -1,7 +1,8 @@
 package homeWork.faculty.dao;
 
+import homeWork.faculty.controller.ControllerDao;
 import homeWork.faculty.utilsDao.ConnectionClose;
-import homeWork.faculty.utilsDao.UtilsJdbc;
+import homeWork.faculty.utilsDao.ManagerConnection;
 
 import java.sql.*;
 import java.util.List;
@@ -25,7 +26,7 @@ public class AbstractDaoImpl<E> implements ControllerDao {
     public List<E> getAll() throws SQLException {
         List<E> list = null;
         String entityQuery = "SELECT id, studentName, avg_score, group_id FROM students";
-        connection = UtilsJdbc.getConnection();
+        connection = ManagerConnection.getConnection();
         PreparedStatement prstatement =null;
         try {
             statement = connection.prepareStatement(entityQuery);
