@@ -42,18 +42,18 @@ CREATE TABLE `teachers` (
   CONSTRAINT `teachers_ibfk_1` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
-INSERT INTO students(studentName,group_id) VALUES ('Ivanov',1);
-INSERT INTO students(studentName,group_id) VALUES ('Petrov',2);
-INSERT INTO students(studentName,group_id) VALUES ('Cidorov',3);
+INSERT INTO students(name,group_id) VALUES ('Ivanov',1);
+INSERT INTO students(name,group_id) VALUES ('Petrov',2);
+INSERT INTO students(name,group_id) VALUES ('Cidorov',3);
 
-INSERT INTO groups(groupName) VALUES ('first');
-INSERT INTO groups(groupName) VALUES ('second');
-INSERT INTO groups(groupName) VALUES ('third');
+INSERT INTO groups(name) VALUES ('first');
+INSERT INTO groups(name) VALUES ('second');
+INSERT INTO groups(name) VALUES ('third');
 
-INSERT INTO teachers(teacherName, experience, subject_id) VALUES ('Ivanenko', 5, 1);
-INSERT INTO teachers(teacherName, experience, subject_id ) VALUES ('Petrenko', 10, 2);
-INSERT INTO teachers(teacherName, experience, subject_id ) VALUES ('Cidorenko', 15, 3);
+INSERT INTO teachers(name, experience, subject_id) VALUES ('Ivanenko', 5, 1);
+INSERT INTO teachers(name, experience, subject_id ) VALUES ('Petrenko', 10, 2);
+INSERT INTO teachers(name, experience, subject_id ) VALUES ('Cidorenko', 15, 3);
 
-INSERT INTO subjects(subjectName,description) VALUES ('mathematics', 'study mathematics');
-INSERT INTO subjects(subjectName,description) VALUES ('programming', 'study java');
-INSERT INTO subjects(subjectName,description) VALUES ('economy', 'study');
+INSERT INTO subjects(name,description) VALUES ('mathematics', 'study mathematics');
+INSERT INTO subjects(name,description) VALUES ('programming', 'study java');
+INSERT INTO subjects(name,description) VALUES ('economy', 'study');

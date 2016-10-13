@@ -15,21 +15,16 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 /**
  * Created by mi on 10.10.2016.
  */
 public class TestStudentsDaoImpl {
 
-    private static ResourceBundle resources = ResourceBundle.getBundle("database");
     private static final String PROPERTIES_PATH = "src/main/resources/database.properties";
     private static Connection connection;
     private static Properties properties;
     private static StudentDaoImpl studentDao;
-    String url = resources.getString("db.url");
-    String login = resources.getString("db.user");
-    String pass = resources.getString("db.password");
 
     @BeforeClass
     public static void beforeClass() throws IOException, SQLException {
@@ -38,8 +33,7 @@ public class TestStudentsDaoImpl {
         connection = DriverManager.getConnection(
                 properties.getProperty("db.url"),
                 properties.getProperty("db.user"),
-                //     properties.getProperty("db.password"));
-                resources.getString("db.password"));
+                properties.getProperty("db.password"));
         studentDao = new StudentDaoImpl(connection);
 
     }

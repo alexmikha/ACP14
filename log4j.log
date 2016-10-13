@@ -495,3 +495,764 @@
 2016-10-11 21:38:23 INFO  StudentDaoImpl:36 - Calling method getStudents method
 2016-10-11 21:38:23 INFO  StudentDaoImpl:36 - Calling method getStudents method
 2016-10-11 21:38:23 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-12 19:21:30 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 19:21:31 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 19:21:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 19:21:31 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 19:21:31 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 19:21:32 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 19:21:32 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 19:21:32 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 19:21:32 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 19:21:32 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 19:21:34 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 19:21:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7f36662c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 20:10:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 20:10:29 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 20:10:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 20:10:29 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 20:10:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 20:10:32 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 20:10:32 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 20:10:32 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 20:10:32 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 20:10:32 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 20:10:33 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 20:10:36 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2002348] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 20:12:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 20:12:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 20:12:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 20:12:51 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 20:12:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 20:12:52 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 20:12:52 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 20:12:52 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 20:12:52 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 20:12:52 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 20:12:54 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 20:12:58 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2002348] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 21:38:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 21:38:35 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 21:38:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 21:38:35 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 21:38:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 21:38:39 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 21:38:39 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 21:38:39 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 21:38:39 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 21:38:39 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 21:38:40 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 21:38:43 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@299321e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 21:38:44 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 21:38:44 ERROR SqlExceptionHelper:131 - Field 'author' doesn't have a default value
+2016-10-12 21:38:44 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 21:38:44 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 21:43:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 21:43:28 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 21:43:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 21:43:28 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 21:43:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 21:43:30 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 21:43:30 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 21:43:30 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 21:43:30 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 21:43:30 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 21:43:31 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 21:43:35 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@299321e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 21:43:35 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 21:43:35 ERROR SqlExceptionHelper:131 - Field 'author' doesn't have a default value
+2016-10-12 21:43:35 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 21:43:35 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 22:46:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 22:46:01 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 22:46:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 22:46:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 22:46:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 22:46:02 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 22:46:02 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 22:46:02 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 22:46:02 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 22:46:02 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 22:46:03 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 22:46:07 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@299321e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 22:46:07 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 22:46:07 ERROR SqlExceptionHelper:131 - Field 'author' doesn't have a default value
+2016-10-12 22:46:07 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 22:46:07 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 22:49:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 22:49:06 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 22:49:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 22:49:06 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 22:49:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 22:49:07 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 22:49:07 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-12 22:49:07 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 22:49:07 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 22:49:07 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 22:49:08 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 22:49:12 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@732f29af] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 22:49:12 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 22:49:12 ERROR SqlExceptionHelper:131 - Field 'author' doesn't have a default value
+2016-10-12 22:49:12 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 22:49:12 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 22:57:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 22:57:42 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 22:57:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 22:57:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 22:57:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 22:57:43 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 22:57:43 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-12 22:57:43 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 22:57:43 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 22:57:43 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 22:57:44 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 22:57:49 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 22:58:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 22:58:44 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 22:58:44 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 22:58:44 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 22:58:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 22:58:45 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 22:58:46 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-12 22:58:46 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 22:58:46 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 22:58:46 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 22:58:47 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 22:58:50 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 22:58:51 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 22:58:51 ERROR SqlExceptionHelper:131 - Field 'author' doesn't have a default value
+2016-10-12 22:58:51 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 22:58:51 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 23:03:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:03:56 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:03:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:03:56 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:03:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:03:57 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:03:57 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-12 23:03:57 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:03:57 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:03:57 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:03:58 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:04:02 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 23:04:03 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 23:04:03 ERROR SqlExceptionHelper:131 - Field 'pages' doesn't have a default value
+2016-10-12 23:04:03 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 23:04:03 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 23:27:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:27:12 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:27:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:27:12 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:27:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:27:13 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:27:13 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-12 23:27:13 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:27:13 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:27:13 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:27:14 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:27:18 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 23:27:18 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2016-10-12 23:27:18 ERROR SqlExceptionHelper:131 - Field 'pages' doesn't have a default value
+2016-10-12 23:27:18 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 23:27:18 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 23:35:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:35:45 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:35:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:35:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:35:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:35:46 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:35:46 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-12 23:35:46 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:35:46 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:35:46 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:35:47 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:35:52 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 23:35:52 WARN  SqlExceptionHelper:129 - SQL Error: 1366, SQLState: HY000
+2016-10-12 23:35:52 ERROR SqlExceptionHelper:131 - Incorrect integer value: 'IT' for column 'type' at row 1
+2016-10-12 23:35:52 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 23:35:52 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 23:39:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:39:53 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:39:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:39:53 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:39:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:39:54 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:39:54 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 23:39:54 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:39:54 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:39:54 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:39:55 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:39:59 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25a6944c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 23:40:00 WARN  SqlExceptionHelper:129 - SQL Error: 1366, SQLState: HY000
+2016-10-12 23:40:00 ERROR SqlExceptionHelper:131 - Incorrect integer value: 'IT' for column 'type' at row 1
+2016-10-12 23:40:00 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2016-10-12 23:40:00 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2016-10-12 23:42:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:42:55 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:42:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:42:55 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:42:55 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:42:56 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:42:56 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 23:42:56 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:42:56 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:42:56 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:42:57 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:43:02 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25a6944c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 23:47:31 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:47:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:47:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:47:32 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:47:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:47:33 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:47:33 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 23:47:33 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:47:33 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:47:33 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:47:34 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:47:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25a6944c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-12 23:48:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-12 23:48:14 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-12 23:48:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-12 23:48:14 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-12 23:48:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-12 23:48:15 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-12 23:48:15 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-12 23:48:15 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-12 23:48:15 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-12 23:48:15 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-12 23:48:16 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 23:48:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25a6944c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 02:32:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 02:32:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 02:32:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 02:32:51 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 02:32:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 02:32:55 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 02:32:55 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 02:32:55 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 02:32:55 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 02:32:55 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 02:32:56 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 02:32:58 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 02:33:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 02:33:22 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 02:33:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 02:33:22 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 02:33:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 02:33:23 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 02:33:23 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 02:33:23 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 02:33:23 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 02:33:23 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 02:33:25 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 02:33:28 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 02:35:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 02:35:02 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 02:35:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 02:35:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 02:35:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 02:35:03 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 02:35:03 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 02:35:03 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 02:35:03 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 02:35:03 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 02:35:04 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 02:35:08 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 02:35:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 02:35:09 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 02:35:09 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 02:35:09 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 02:35:09 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 02:35:09 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 02:35:09 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 02:35:09 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c3146bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 12:46:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 12:46:26 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 12:46:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 12:46:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 12:46:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 12:46:31 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 12:46:31 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 12:46:31 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 12:46:31 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 12:46:31 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 12:46:32 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 12:46:34 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 12:46:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 12:46:35 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 12:46:35 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 12:46:35 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 12:46:35 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 12:46:35 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 12:46:35 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 12:46:35 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c3146bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 12:49:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 12:49:33 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 12:49:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 12:49:33 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 12:49:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 12:49:34 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 12:49:34 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 12:49:34 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 12:49:34 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 12:49:34 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 12:49:36 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 12:49:41 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 12:49:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 12:49:41 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 12:49:41 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 12:49:41 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 12:49:41 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 12:49:41 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 12:49:41 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 12:49:41 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c3146bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 13:00:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 13:00:36 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 13:00:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 13:00:36 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 13:00:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 13:00:37 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 13:00:37 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 13:00:37 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 13:00:37 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 13:00:37 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 13:00:39 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 13:00:43 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 13:00:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 13:00:43 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 13:00:43 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 13:00:43 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 13:00:43 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 13:00:43 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 13:00:43 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 13:00:43 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c3146bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 13:04:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 13:04:34 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 13:04:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 13:04:34 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 13:04:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 13:04:36 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 13:04:36 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 13:04:36 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 13:04:36 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 13:04:36 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 13:04:37 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 13:04:42 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23fb172e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 13:04:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 13:04:42 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 13:04:42 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 13:04:42 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 13:04:42 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 13:04:42 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 13:04:42 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 13:04:42 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c3146bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2016-10-13 14:23:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:23:10 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:23:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:23:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:23:10 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:23:11 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:23:11 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:23:11 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:23:11 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:23:11 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:23:13 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 14:24:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:24:26 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:24:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:24:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:24:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:24:28 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:24:28 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:24:28 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:24:28 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:24:28 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:24:29 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 14:28:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:28:11 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:28:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:28:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:28:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:28:12 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:28:12 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:28:12 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:28:12 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:28:12 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:28:14 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 14:34:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:34:23 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:34:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:34:23 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:34:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:34:24 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:34:24 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:34:24 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:34:24 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:34:24 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:34:25 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 14:50:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:50:04 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:50:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:50:04 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:50:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:50:05 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:50:05 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:50:05 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:50:05 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:50:05 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:50:06 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 14:54:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:54:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:54:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:54:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:54:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:54:51 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:54:51 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:54:51 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:54:51 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:54:51 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:54:53 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 14:56:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 14:56:37 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 14:56:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 14:56:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 14:56:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 14:56:38 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 14:56:38 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 14:56:38 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 14:56:38 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 14:56:38 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 14:56:39 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 16:26:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 16:26:55 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 16:26:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 16:26:55 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 16:26:55 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 16:26:56 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 16:26:56 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 16:26:56 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 16:26:56 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 16:26:56 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 16:26:57 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 16:28:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 16:28:16 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 16:28:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 16:28:16 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 16:28:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 16:28:37 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 16:28:37 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 16:28:37 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 16:28:37 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 16:28:38 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 16:28:50 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 16:40:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 16:40:02 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 16:40:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 16:40:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 16:40:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 16:40:04 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 16:40:04 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 16:40:04 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 16:40:04 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 16:40:04 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 16:40:05 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 17:15:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 17:15:53 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 17:15:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 17:15:53 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 17:15:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 17:15:54 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 17:15:54 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 17:15:54 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 17:15:54 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 17:15:54 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 17:15:55 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 17:23:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 17:23:07 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 17:23:07 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 17:23:07 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 17:23:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 17:23:09 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 17:23:09 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 17:23:09 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 17:23:09 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 17:23:09 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 17:23:10 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 17:25:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 17:25:03 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 17:25:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 17:25:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 17:25:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 17:25:04 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 17:25:04 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library]
+2016-10-13 17:25:04 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 17:25:04 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 17:25:04 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 17:25:06 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-13 17:39:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 17:39:05 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 17:39:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 17:39:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 17:39:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 17:39:06 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 17:39:06 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 17:39:06 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 17:39:06 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 17:39:06 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 17:39:07 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 17:41:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 17:41:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 17:41:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 17:41:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 17:41:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 17:41:50 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 17:41:50 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 17:41:50 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 17:41:50 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 17:41:50 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 17:41:51 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 17:55:16 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 17:55:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 17:55:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 17:55:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 17:55:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 17:55:18 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 17:55:18 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 17:55:18 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 17:55:18 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 17:55:18 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 17:55:19 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:00:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:00:20 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:00:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:00:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:00:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:00:22 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:00:22 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:00:22 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:00:22 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:00:22 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:00:23 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:08:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:08:58 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:08:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:08:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:09:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:09:15 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:09:16 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:09:16 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:09:16 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:09:16 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:09:25 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:12:16 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:12:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:12:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:12:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:12:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:12:18 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:12:18 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:12:18 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:12:18 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:12:18 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:12:20 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:13:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:13:15 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:13:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:13:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:13:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:13:33 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:13:33 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:13:33 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:13:33 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:13:33 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:13:42 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:17:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:17:12 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:17:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:17:12 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:17:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:17:14 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:17:14 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:17:14 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:17:14 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:17:14 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:17:16 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:18:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:18:03 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:18:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:18:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:18:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:18:05 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:18:05 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:18:05 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:18:05 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:18:05 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:18:06 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:19:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:19:27 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:19:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:19:27 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:19:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:19:28 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:19:28 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:19:28 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:19:28 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:19:28 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:19:29 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:20:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:20:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:20:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:20:19 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:20:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:20:21 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:20:21 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:20:21 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:20:21 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:20:21 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:20:23 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:21:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:21:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:21:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:21:19 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:21:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:21:20 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:21:20 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:21:20 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:21:20 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:21:20 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:21:21 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:38:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:38:56 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:38:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:38:56 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:38:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:38:57 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:38:57 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:38:57 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:38:57 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:38:57 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:38:58 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:51:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-10-13 18:51:54 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-13 18:51:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-13 18:51:54 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-13 18:51:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-13 18:51:55 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-13 18:51:55 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Library?useSSL=false]
+2016-10-13 18:51:55 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-13 18:51:55 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-13 18:51:55 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-13 18:51:56 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-10-13 18:52:00 INFO  Version:30 - HV000001: Hibernate Validator 5.2.3.Final
+2016-10-13 18:52:01 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@303e3593] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.

@@ -1,17 +1,22 @@
 package homeWork.faculty.model;
 
+import javax.persistence.Column;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by mi on 05.10.2016.
  */
-public class Teacher {
+public class Teacher extends IdEntity{
 
-    private int id;
+   @Column(nullable = false)
     private String teacherName;
+    @Column(nullable = false)
     private int experience;
+    @Column
     private int subjectId;
 
-    public Teacher(int id, String teacherName, int experience, int subjectId) {
-        this.id = id;
+    public Teacher( String teacherName, int experience, int subjectId) {
         this.teacherName = teacherName;
         this.experience = experience;
         this.subjectId = subjectId;
@@ -21,12 +26,11 @@ public class Teacher {
 
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public Teacher(ResultSet rs) throws SQLException {
+        setId(rs.getInt(1));
+        setTeacherName(rs.getString(2));
+        setExperience(rs.getInt(3));
+        setSubjectId(rs.getInt(4));
     }
 
     public String getTeacherName() {
@@ -38,7 +42,6 @@ public class Teacher {
     }
 
     public int getExperience() {
-
         return experience;
     }
 
@@ -57,8 +60,10 @@ public class Teacher {
     @Override
     public String toString() {
         return "Teacher{" +
+                "id=" + getId() +
                 "teacherName='" + teacherName + '\'' +
-                ", experience='" + experience + '\'' +
+                ", experience=" + experience +
+                ", subjectId=" + subjectId +
                 '}';
     }
 }

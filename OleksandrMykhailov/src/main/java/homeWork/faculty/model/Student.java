@@ -1,20 +1,27 @@
 package homeWork.faculty.model;
 
+
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
  * Created by mi on 05.10.2016.
  */
-public class Student {
-
-    private int id;
+@Entity
+@Table(name = "students")
+public class Student extends week6.jpa.model.IdEntity{
+    @Column(nullable = false)
     private String studentName;
+    @Column
     private double avgScore;
+    @Column
     private int groupId;
 
     public Student(String studentName, double avgScore, int groupId) {
- //       this.id = id;
         this.studentName = studentName;
         this.avgScore = avgScore;
         this.groupId = groupId;
@@ -29,14 +36,6 @@ public class Student {
 
     public Student() {
 
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getStudentName() {
@@ -66,7 +65,7 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
+                "id=" + getId() +
                 ", studentName='" + studentName + '\'' +
                 ", avgScore=" + avgScore +
                 ", group_id=" + groupId +

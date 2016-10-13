@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
  * Created by mi on 08.10.2016.
  */
 public class ManagerConnection {
-   private static Logger logger = Logger.getLogger(ManagerConnection.class);
+    private static Logger logger = Logger.getLogger(ManagerConnection.class);
     private static ResourceBundle resources = ResourceBundle.getBundle("database");
     private static boolean instance;
 
@@ -29,18 +29,18 @@ public class ManagerConnection {
         try {
             Connection connection = DriverManager.getConnection(url, login, pass);
             return connection;
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.error("Exception: not connection url or not tru login or not tru pass " + e.getMessage());
         }
         return null;
     }
 
     private static synchronized void initializeDriver() throws ClassNotFoundException {
-      try {
-          Class.forName(resources.getString("db.driver"));
-      }catch (Exception e){
-          logger.error("Exception: not load driver " + e.getMessage());
-      }
+        try {
+            Class.forName(resources.getString("db.driver"));
+        } catch (Exception e) {
+            logger.error("Exception: not load driver " + e.getMessage());
+        }
         instance = true;
     }
 }

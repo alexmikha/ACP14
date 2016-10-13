@@ -1,8 +1,8 @@
 package homeWork.faculty.view;
 
-import homeWork.faculty.dao.StudentDaoImpl;
 import homeWork.faculty.model.Student;
-import homeWork.faculty.utilsDao.ManagementFaculty;
+import homeWork.faculty.service.ManagerSevice;
+import homeWork.faculty.utilsDao.ManagerConnection;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,8 +15,10 @@ import java.util.List;
  */
 public class MenuDao {
     //   public static final Logger logger = Logger.getLogger(String.valueOf(MenuDao.class));
-    private ManagementFaculty faculty = new ManagementFaculty();
-    private StudentDaoImpl studentDaoImpl = new StudentDaoImpl();
+  //  private ManagementFaculty faculty = new ManagementFaculty();
+   // private StudentDaoImpl studentDaoImpl = new StudentDaoImpl();
+    private ManagerConnection managerConnection = new ManagerConnection();
+    private ManagerSevice managerSevice = new ManagerSevice();
     private BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     int id;
     private String studentName;
@@ -24,6 +26,7 @@ public class MenuDao {
     private int groupId;
 
     public MenuDao() throws SQLException, ClassNotFoundException {
+
     }
 
     public int menu() throws IOException, SQLException, ClassNotFoundException {
@@ -49,25 +52,25 @@ public class MenuDao {
         String menu = bf.readLine();
         switch (menu) {
             case "1":
-                for (int i = 0; i < studentDaoImpl.getAll().size(); i++) {
-                    System.out.println(studentDaoImpl.getAll().get(i));
+                for (int i = 0; i < managerSevice.getAllStudents().size(); i++) {
+                    System.out.println(managerSevice.getAllStudents().get(i));
                 }
                 break;
             case "2":
-                for (int i = 0; i < faculty.getGroup().size(); i++) {
-                    System.out.println(faculty.getGroup().get(i));
+                for (int i = 0; i <  managerSevice.getAllGroup().size(); i++) {
+                    System.out.println(managerSevice.getAllGroup().get(i));
                 }
                 break;
             case "3":
-                for (int i = 0; i < faculty.getTeacher().size(); i++) {
-                    System.out.println(faculty.getTeacher().get(i));
+                for (int i = 0; i < managerSevice.getAllTeacher().size(); i++) {
+                    System.out.println(managerSevice.getAllTeacher().get(i));
                 }
 
                 break;
             case "4":
-                for (int i = 0; i < faculty.getSubject().size(); i++) {
-                    System.out.println(faculty.getSubject().get(i));
-                }
+//                for (int i = 0; i < managerSevice.getAllSubject.size(); i++) {
+//                    System.out.println(managerSevice.getAllSubject.get(i));
+//                }
                 break;
             case "5":
                 System.out.println("Enter studentName");
@@ -82,38 +85,38 @@ public class MenuDao {
                 groupId = Integer.parseInt(bf.readLine());
                 student.setGroupId(groupId);
 
-                studentDaoImpl.insertEntity(student);
+                managerSevice.createStudent(student);
                 System.out.println("Student " + studentName + " was added in DB");
 
                 break;
             case "6":
-                System.out.println(faculty.addTeachertToDB());
+              //  System.out.println(managerSevice.createTeacher());
                 break;
             case "7":
-                System.out.println(faculty.addSubjectToDB());
+//                System.out.println(faculty.addSubjectToDB());
                 break;
             case "8":
-                System.out.println(faculty.addGroupToDB());
+//                System.out.println(faculty.addGroupToDB());
                 break;
             case "9":
-                for (int i = 0; i < faculty.getTeacherMinExperience().size(); i++) {
-                    System.out.println("min expiriance is " + faculty.getTeacherMinExperience().get(i));
-                }
+//                for (int i = 0; i < faculty.getTeacherMinExperience().size(); i++) {
+//                    System.out.println("min expiriance is " + faculty.getTeacherMinExperience().get(i));
+//                }
                 break;
             case "10":
-                for (int i = 0; i < faculty.getTeacherMinExperience().size(); i++) {
-                    System.out.println("max experience is " + faculty.getTeacherMaxExperience().get(i));
-                }
+//                for (int i = 0; i < faculty.getTeacherMinExperience().size(); i++) {
+//                    System.out.println("max experience is " + faculty.getTeacherMaxExperience().get(i));
+//                }
                 break;
             case "11":
                 System.out.println("Enter id for delete the student");
                 id = Integer.parseInt(bf.readLine());
                 student.setId(id);
-                studentDaoImpl.deleteEntity(student);
+                managerSevice.deleteStudent(student);
                 System.out.println("Student " + studentName + " was deleted from DB");
                 break;
             case "12":
-                List<Student> studentList = studentDaoImpl.getAll();
+                List<Student> studentList = managerSevice.getAllStudents();
 
                 System.out.println("Enter studentName");
                 studentName = bf.readLine();
@@ -130,7 +133,7 @@ public class MenuDao {
                 System.out.println("Enter id");
                 id = Integer.parseInt(bf.readLine());
                 student.setId(id);
-                studentDaoImpl.updateEntity(student);
+                managerSevice.updateStudent(student);
                 System.out.println("Student " + studentName + " was updated in DB");
                 break;
             case "13":
@@ -155,11 +158,11 @@ public class MenuDao {
         switch (choice) {
             case "1":
                 menu();
-                faculty.connection.commit();
-                ManagementFaculty.getInstance();
+//                managerConnection.connection.commit();
+//                ManagementFaculty.getInstance();
                 break;
             case "2":
-                faculty.connection.setAutoCommit(false);
+          //      faculty.connection.setAutoCommit(false);
                 exitFromMenu();
                 break;
         }
@@ -168,7 +171,7 @@ public class MenuDao {
 
     private void exitFromMenu() throws IOException, SQLException {
         bf.close();
-        faculty.connection.close();
+      //  faculty.connection.close();
     }
 
 }

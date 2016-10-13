@@ -87,3 +87,61 @@
 2016-10-11 22:36:52 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
 2016-10-11 22:36:52 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
 2016-10-11 22:36:52 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-13 17:54:07 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-13 17:54:07 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-13 17:54:07 INFO  StudentDaoImpl:36 - Calling method getStudents method
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:79 - Calling method deleteStudent delete student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-13 17:54:07 INFO  StudentDaoImpl:96 - Calling method updateStudent update student from DB
+2016-10-14 00:23:58 INFO  StudentDaoImpl:36 - Calling method getStudents
+2016-10-14 00:23:58 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:58 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-14 00:23:58 INFO  StudentDaoImpl:73 - Student new was add to DB
+2016-10-14 00:23:58 INFO  StudentDaoImpl:36 - Calling method getStudents
+2016-10-14 00:23:58 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-14 00:23:58 INFO  StudentDaoImpl:73 - Student Test was add to DB
+2016-10-14 00:23:58 INFO  StudentDaoImpl:36 - Calling method getStudents
+2016-10-14 00:23:58 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:58 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:98 - Calling method updateStudent update student from DB
+2016-10-14 00:23:59 INFO  StudentDaoImpl:98 - Calling method updateStudent update student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:36 - Calling method getStudents
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-14 00:30:45 INFO  StudentDaoImpl:73 - Student new was add to DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:36 - Calling method getStudents
+2016-10-14 00:30:45 INFO  StudentDaoImpl:59 - Calling  method addStudentToDB create new student
+2016-10-14 00:30:45 INFO  StudentDaoImpl:73 - Student Test was add to DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:36 - Calling method getStudents
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:80 - Calling method deleteStudent delete student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:98 - Calling method updateStudent update student from DB
+2016-10-14 00:30:45 INFO  StudentDaoImpl:98 - Calling method updateStudent update student from DB
