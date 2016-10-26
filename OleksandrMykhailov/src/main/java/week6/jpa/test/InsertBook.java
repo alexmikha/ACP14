@@ -9,7 +9,7 @@ import javax.persistence.Persistence;
 import java.util.Date;
 
 /**
- * Created by mi on 12.10.2016.
+ * Created by mi on 20.10.2016.
  */
 public class InsertBook {
 

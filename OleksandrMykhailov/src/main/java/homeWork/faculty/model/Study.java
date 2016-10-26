@@ -1,49 +1,56 @@
 package homeWork.faculty.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by mi on 12.10.2016.
  */
-@Entity
-@Table(name = "study")
+
 public class Study extends IdEntity{
 
-    @Column(nullable = false)
-    String studyName;
+
+    private int groupId;
+
+    private int subjectId;
 
     public Study() {
     }
 
-    private List<Integer> subjectsId;
+
+    private List<Integer> subId ; //= new ArrayList<>();
 
 //    public Study() {
 //        this.subjectsId = new ArrayList<>();
 //    }
 
-    public List<Integer> getSubjects() {
-        return subjectsId;
+
+    public int getGroupId() {
+        return groupId;
     }
 
-    public void setSubjects(List<Integer> subjects) {
-
-        this.subjectsId = subjects;
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
     }
 
-    public String getStudyName() {
-        return studyName;
+    public int getSubjectId() {
+        return subjectId;
     }
 
-    public void setStudyName(String studyName) {
-        this.studyName = studyName;
+    public void setSubjectId(int subjectId) {
+        this.subjectId = subjectId;
     }
+
+    public List<Integer> getSubId() {
+        return subId;
+    }
+
+    public void setSubId(List<Integer> subId) {
+        this.subId = subId;
+    }
+
 
     public boolean addSubject(Integer subject){
-        subjectsId.add(subject);
+        subId.add(subject);
         return true;
     }
 }

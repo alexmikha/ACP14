@@ -1,30 +1,29 @@
 package week6.jpa.model;
 
-import javax.persistence.*;
 import java.util.Date;
 
 /**
  * Created by mi on 12.10.2016.
  */
-@Entity
-@Table(name="books")
-public class Book extends IdEntity{
+//@Entity
+//@Table(name="books")
+public class Book extends IdEntity {
 
 
-    @Column(nullable = false)
+  //  @Column(nullable = false)
     private String name;
 
-    @Column(nullable = false)
-    @Enumerated(EnumType.STRING)
+  //  @Column(nullable = false)
+  //  @Enumerated(EnumType.STRING)
     private BookType type;
 
-    @Column(length = 20)
+   // @Column(length = 20)
     private String city;
 
-    @Column(name = "publish_date")
+   // @Column(name = "publish_date")
     private Date publishDate;
 
-    @Column
+  //  @Column
     private double price;
 
 

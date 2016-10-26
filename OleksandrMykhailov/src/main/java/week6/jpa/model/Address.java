@@ -1,20 +1,19 @@
 package week6.jpa.model;
 
-import javax.persistence.*;
 import java.util.List;
 
 /**
  * Created by mi on 12.10.2016.
  */
-@Entity
-@Table(name = "addresses", uniqueConstraints = {@UniqueConstraint(columnNames = {"city","street"})})
-public class Address extends IdEntity{
+//@Entity
+//@Table(name = "addresses", uniqueConstraints = {@UniqueConstraint(columnNames = {"city","street"})})
+public class Address extends IdEntity {
 
-    @Column
+//    @Column
     private String city;
-    @Column
+ //   @Column
     private String street;
-    @Column
+//    @Column
     private String appNum;
 
     public Address(String city, String street, String appNum) {
@@ -23,9 +22,9 @@ public class Address extends IdEntity{
         this.appNum = appNum;
     }
 
-    // mappedBy = fieldName, describe reference
-    // between for configure join columns
-    @OneToMany(mappedBy = "address", fetch = FetchType.EAGER)
+//     mappedBy = fieldName, describe reference
+//     between for configure join columns
+//    @OneToMany(mappedBy = "address", fetch = FetchType.EAGER)
     private List<Author> authorList;
 
     public Address() {

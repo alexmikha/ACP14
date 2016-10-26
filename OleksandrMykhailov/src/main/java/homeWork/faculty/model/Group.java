@@ -1,22 +1,21 @@
 package homeWork.faculty.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+
+import java.util.List;
 
 /**
  * Created by mi on 05.10.2016.
  */
-@Entity
-@Table(name = "groups")
+
 public class Group extends IdEntity {
 
-    @Column(nullable = false)
+
     private String groupName;
 
-    public Group(String groupName) {
-        this.groupName = groupName;
-    }
+
+    private List<Student> studentList;
+    private List<Subject> subject;
+
 
     public Group() {
 
@@ -30,10 +29,25 @@ public class Group extends IdEntity {
         this.groupName = groupName;
     }
 
+    public List<Student> getStudentList() {
+        return studentList;
+    }
+
+    public void setStudentList(List<Student> studentList) {
+        this.studentList = studentList;
+    }
+
+    public List<Subject> getSubject() {
+        return subject;
+    }
+
+    public void setSubject(List<Subject> subject) {
+        this.subject = subject;
+    }
+
     @Override
     public String toString() {
         return "Group{" +
-                "id=" + getId() +
                 "groupName='" + groupName + '\'' +
                 '}';
     }

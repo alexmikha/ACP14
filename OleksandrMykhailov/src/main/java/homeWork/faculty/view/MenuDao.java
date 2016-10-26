@@ -23,14 +23,14 @@ public class MenuDao {
     int id;
     private String studentName;
     private double avg;
-    private int groupId;
+    private int group_id;
 
     public MenuDao() throws SQLException, ClassNotFoundException {
 
     }
 
     public int menu() throws IOException, SQLException, ClassNotFoundException {
-        Student student = new Student(studentName, avg, groupId);
+        Student student = new Student(studentName, group_id );
         System.out.println();
         System.out.println("Select:");
         System.out.println(1 + " Get a list of all students");
@@ -79,11 +79,11 @@ public class MenuDao {
 
                 System.out.println("Enter avgScore");
                 avg = Double.parseDouble(bf.readLine());
-                student.setAvgScore(avg);
+         //       student.setAvgScore(avg);
 
-                System.out.println("Enter group_id");
-                groupId = Integer.parseInt(bf.readLine());
-                student.setGroupId(groupId);
+                System.out.println("Enter group");
+                group_id = Integer.parseInt(bf.readLine());
+                student.setGroupId(group_id);
 
                 managerSevice.createStudent(student);
                 System.out.println("Student " + studentName + " was added in DB");
@@ -124,11 +124,11 @@ public class MenuDao {
 
                 System.out.println("Enter avgScore");
                 avg = Double.parseDouble(bf.readLine());
-                student.setAvgScore(avg);
+       //         student.setAvgScore(avg);
 
                 System.out.println("Enter group_id");
-                groupId = Integer.parseInt(bf.readLine());
-                student.setGroupId(groupId);
+                group_id = Integer.parseInt(bf.readLine());
+                student.setGroupId(group_id);
 
                 System.out.println("Enter id");
                 id = Integer.parseInt(bf.readLine());

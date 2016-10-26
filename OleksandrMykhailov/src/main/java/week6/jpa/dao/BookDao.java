@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 /**
- * Created by mi on 13.10.2016.
+ * Created by mi on 20.10.2016.
  */
 public class BookDao implements Dao<Book> {
 

@@ -9,13 +9,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by serhii on 30.01.16.
+ * Created by mi on 20.10.16.
  */
 public class ServiceLocator {
 
     private static final Map<String, Object> contex = new HashMap<>();
 
-    // while class loading
+   //  while class loading
     static {
         // configuration
         contex.put("entityManagerFactory", Persistence.createEntityManagerFactory("hibernate-unit"));

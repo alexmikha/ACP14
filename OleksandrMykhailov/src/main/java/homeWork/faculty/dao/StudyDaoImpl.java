@@ -42,10 +42,10 @@ public class StudyDaoImpl implements ControllerDao<Study, Integer> {
                 if (groupId != null && subjectId != null) {
                     if (!groupsSet.contains(groupId)) {
                         Study study = new Study();
-                        study.setGroupId(groupId);
+                        study.setId(groupId);
                         study.addSubject(subjectId);
                         studyList.add(study);
-                        groupsSet.add(study.getGroupId());
+                        groupsSet.add(study.getId());
                     } else {
                         Study study = findStudyById(studyList, groupId);
                         study.addSubject(subjectId);
@@ -78,11 +78,11 @@ public class StudyDaoImpl implements ControllerDao<Study, Integer> {
 
         try {PreparedStatement prstmtDel = connection.prepareStatement(delSqlQuery);
              PreparedStatement prstmtAdd = connection.prepareStatement(addSqlQuery);
-            prstmtDel.setInt(1, study.getGroupId());
+            prstmtDel.setInt(1, study.getId());
             prstmtDel.execute();
 
-            for(Integer integer : study.getSubjects()) {
-                prstmtAdd.setInt(1, study.getGroupId());
+            for(Integer integer : study.getSubId()) {
+                prstmtAdd.setInt(1, study.getId());
                 prstmtAdd.setInt(2, integer);
                 prstmtAdd.execute();
             }
@@ -103,7 +103,7 @@ public class StudyDaoImpl implements ControllerDao<Study, Integer> {
     private static Study findStudyById(List<Study> studies, int id) {
         logger.info("Calling  method findStudyById");
         for (Study study : studies) {
-            if(study.getGroupId()==id) {
+            if(study.getId()==id) {
                 return study;
             }
         }

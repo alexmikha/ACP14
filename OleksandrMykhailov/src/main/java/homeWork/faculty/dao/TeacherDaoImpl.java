@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Created by mi on 08.10.2016.
  */
-public class TeacherDaoImpl implements ControllerDao<Teacher, Integer> {
+public class TeacherDaoImpl implements ControllerDao<Teacher, Object> {
     private static final Logger logger = Logger.getLogger(StudentDaoImpl.class);
 
     private PreparedStatement prstmt;
@@ -25,7 +25,7 @@ public class TeacherDaoImpl implements ControllerDao<Teacher, Integer> {
     }
 
     @Override
-    public List getAll() throws SQLException {
+    public List<Teacher> getAll() throws SQLException {
         logger.info("Calling method getAllTeachers");
         List<Teacher> teachers = new ArrayList<>();
         String teachersQuery = "SELECT id, name, experience, group_id FROM students";
@@ -54,7 +54,7 @@ public class TeacherDaoImpl implements ControllerDao<Teacher, Integer> {
         try {
             prstmt = connection.prepareStatement(addTeacher);
             prstmt.setString(1, teacher.getTeacherName());
-            prstmt.setDouble(2, teacher.getExperience());
+            prstmt.setDouble(2, teacher.getExper());
             prstmt.setInt(3, teacher.getSubjectId());
             prstmt.execute();
         } catch (SQLException e) {
@@ -93,7 +93,7 @@ public class TeacherDaoImpl implements ControllerDao<Teacher, Integer> {
         try {
             prstmt = connection.prepareStatement(updateStudent);
             prstmt.setString(1, teacher.getTeacherName());
-            prstmt.setInt(2, teacher.getExperience());
+            prstmt.setInt(2, teacher.getExper());
             prstmt.setInt(3, teacher.getSubjectId());
             prstmt.setInt(4, teacher.getId());
             prstmt.execute();
@@ -108,7 +108,7 @@ public class TeacherDaoImpl implements ControllerDao<Teacher, Integer> {
     }
 
     @Override
-    public Teacher getEntityById(Integer id) throws SQLException {
+    public Teacher getEntityById(Object id) throws SQLException {
         logger.info("Calling method getEntityById");
         connection = ManagerConnection.getConnection();
         String idQuery = "SELECT * FROM teachers WHERE id=" + id + ";";
@@ -119,7 +119,7 @@ public class TeacherDaoImpl implements ControllerDao<Teacher, Integer> {
             if (resultSet.next()) {
                 Teacher teacher = new Teacher(resultSet);
                 teacher.setTeacherName(resultSet.getString("name"));
-                teacher.setExperience(resultSet.getInt("experience"));
+                teacher.setExper(resultSet.getInt("experience"));
                 teacher.setSubjectId(resultSet.getInt("subject_id"));
                 teacher.setId(resultSet.getInt("id"));
                 return teacher;

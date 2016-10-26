@@ -18,7 +18,7 @@ public class ManagerSevice {
 
     private GroupDaoImpl groupDao;
     private StudentDaoImpl studentDao;
-     StudyDaoImpl studyDao;
+    private StudyDaoImpl studyDao;
     private TeacherDaoImpl teacherDao;
 
     public ManagerSevice(GroupDaoImpl groupDao, StudentDaoImpl studentDao, StudyDaoImpl studyDao, TeacherDaoImpl teacherDao) {
@@ -43,6 +43,7 @@ public class ManagerSevice {
     public boolean createStudent(Student entity) throws SQLException {
         return studentDao.updateEntity(entity);
     }
+
     public boolean deleteStudent(Student entity) throws SQLException {
         return studentDao.deleteEntity(entity);
     }
@@ -58,6 +59,7 @@ public class ManagerSevice {
     public boolean createTeacher(Teacher entity) throws SQLException {
         return teacherDao.insertEntity(entity);
     }
+
     public boolean deleteTeacher(Teacher entity) throws SQLException {
         return teacherDao.deleteEntity(entity);
     }
@@ -73,6 +75,7 @@ public class ManagerSevice {
     public boolean createGroup(Group entity) throws SQLException {
         return groupDao.insertEntity(entity);
     }
+
     public boolean deleteGroup(Group entity) throws SQLException {
         return groupDao.deleteEntity(entity);
     }

@@ -29,13 +29,16 @@ public class SubjectDaoImpl implements ControllerDao<Subject, Integer> {
     public List<Subject> getAll() throws SQLException {
         logger.info("Calling method getStudents");
         List<Subject> subjects = new ArrayList<>();
-        String subjectsQuery = "SELECT id, name, description FROM subjects";
+        String subjectsQuery = "SELECT id, name, desc FROM subjects";
         connection = ManagerConnection.getConnection();
         try {
             statement = connection.createStatement();
             resultSet = statement.executeQuery(subjectsQuery);
             while (resultSet.next()) {
-                Subject subject = new Subject(resultSet);
+                Subject subject = new Subject();
+                subject.setId(resultSet.getInt("id"));
+                subject.setSubjectName(resultSet.getString("name"));
+                subject.setDescription(resultSet.getString("desc"));
                 subjects.add(subject);
             }
         } catch (SQLException e) {
@@ -50,7 +53,7 @@ public class SubjectDaoImpl implements ControllerDao<Subject, Integer> {
     @Override
     public boolean insertEntity(Subject subject) throws SQLException {
         logger.info("Calling  method addSubjectToDB create new subject");
-        String addSubject = "INSERT INTO subjects(name, description) VALUE (?,?)";
+        String addSubject = "INSERT INTO subjects(name, desc) VALUE (?,?)";
         connection = ManagerConnection.getConnection();
         try {
             prstmt = connection.prepareStatement(addSubject);
@@ -87,7 +90,7 @@ public class SubjectDaoImpl implements ControllerDao<Subject, Integer> {
     @Override
     public boolean updateEntity(Subject subject) throws SQLException {
         logger.info("Calling method updateSubject update subject from DB");
-        String updateSubject = "UPDATE subjects SET name=?, description=? WHERE id=?";
+        String updateSubject = "UPDATE subjects SET name=?, desc=? WHERE id=?";
         connection = ManagerConnection.getConnection();
         try {
             prstmt = connection.prepareStatement(updateSubject);
@@ -114,16 +117,15 @@ public class SubjectDaoImpl implements ControllerDao<Subject, Integer> {
             statement = connection.createStatement();
             resultSet = statement.executeQuery(idQuery);
             if (resultSet.next()) {
-                Subject subject = new Subject(resultSet);
+                Subject subject = new Subject();
                 subject.setSubjectName(resultSet.getString("name"));
-                subject.setDescription(resultSet.getString("description"));
+                subject.setDescription(resultSet.getString("desc"));
                 subject.setId(resultSet.getInt("id"));
                 return subject;
             }
         } catch (SQLException e) {
             e.printStackTrace();
             logger.error(e.getMessage());
-        //    return null;
         }
         logger.info("Id of subject successfully  got from DB");
         return null;
