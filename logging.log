@@ -366,3 +366,20 @@
 2016-10-29 21:33:43 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
 2016-10-29 21:33:43 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
 2016-10-29 21:33:43 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-30 17:35:47 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@470e2030: startup date [Sun Oct 30 17:35:47 EET 2016]; root of context hierarchy
+2016-10-30 17:35:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-30 17:35:49 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-30 17:35:49 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-30 17:35:49 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-30 17:35:50 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-30 17:35:51 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-30 17:35:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-30 17:35:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-30 17:35:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-30 17:35:51 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-30 17:35:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-30 17:35:53 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-30 17:35:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-30 17:35:59 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
