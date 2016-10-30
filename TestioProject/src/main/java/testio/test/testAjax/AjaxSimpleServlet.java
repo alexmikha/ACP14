@@ -11,7 +11,7 @@ import java.time.LocalTime;
 /**
  * Created by Mi on 30.10.2016.
  */
-@WebServlet("/ajax/hello")
+@WebServlet(urlPatterns = {"/ajax/hello"})
 public class AjaxSimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
