@@ -11,6 +11,6 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Library</artifactId>
     <version>1.0</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
 </project>

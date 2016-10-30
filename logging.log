@@ -1,0 +1,368 @@
+2016-10-27 23:42:52 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d22bbb7: startup date [Thu Oct 27 23:42:52 MSK 2016]; root of context hierarchy
+2016-10-27 23:42:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-27 23:42:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-27 23:42:54 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-27 23:42:54 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-27 23:42:54 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-27 23:42:55 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-27 23:42:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-27 23:42:56 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-27 23:42:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-27 23:42:56 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-27 23:42:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-27 23:42:58 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-27 23:42:58 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-27 23:42:58 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-27 23:43:00 WARN  SqlExceptionHelper:129 - SQL Error: 1045, SQLState: 28000
+2016-10-27 23:43:00 ERROR SqlExceptionHelper:131 - Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-27 23:43:00 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-27 23:46:59 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d22bbb7: startup date [Thu Oct 27 23:46:59 MSK 2016]; root of context hierarchy
+2016-10-27 23:46:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-27 23:47:00 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-27 23:47:01 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-27 23:47:01 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-27 23:47:01 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-27 23:47:02 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-27 23:47:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-27 23:47:03 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-27 23:47:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-27 23:47:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-27 23:47:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-27 23:47:04 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-27 23:47:04 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-27 23:47:04 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-27 23:47:06 WARN  SqlExceptionHelper:129 - SQL Error: 1045, SQLState: 28000
+2016-10-27 23:47:06 ERROR SqlExceptionHelper:131 - Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-27 23:47:06 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 00:55:51 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d22bbb7: startup date [Fri Oct 28 00:55:51 MSK 2016]; root of context hierarchy
+2016-10-28 00:55:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 00:55:57 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 00:55:58 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 00:55:58 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 00:56:01 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 00:56:02 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 00:56:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 00:56:04 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 00:56:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 00:56:04 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 00:56:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 00:56:07 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-28 00:56:07 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 00:56:07 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 00:56:15 WARN  SqlExceptionHelper:129 - SQL Error: 1045, SQLState: 28000
+2016-10-28 00:56:15 ERROR SqlExceptionHelper:131 - Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-28 00:56:15 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 01:04:22 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d22bbb7: startup date [Fri Oct 28 01:04:22 MSK 2016]; root of context hierarchy
+2016-10-28 01:04:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 01:04:24 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 01:04:25 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 01:04:25 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 01:04:28 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 01:04:28 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 01:04:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 01:04:29 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:04:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:04:29 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:04:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:04:32 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-28 01:04:33 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 01:04:33 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 01:04:40 WARN  SqlExceptionHelper:129 - SQL Error: 1045, SQLState: 28000
+2016-10-28 01:04:40 ERROR SqlExceptionHelper:131 - Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-28 01:04:40 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 01:05:03 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d22bbb7: startup date [Fri Oct 28 01:05:03 MSK 2016]; root of context hierarchy
+2016-10-28 01:05:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 01:05:05 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 01:05:06 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 01:05:06 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 01:05:08 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 01:05:08 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 01:05:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 01:05:10 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:05:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:05:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:05:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:05:14 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-28 01:05:14 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 01:05:14 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 01:05:21 WARN  SqlExceptionHelper:129 - SQL Error: 1045, SQLState: 28000
+2016-10-28 01:05:21 ERROR SqlExceptionHelper:131 - Access denied for user 'root'@'localhost' (using password: NO)
+2016-10-28 01:05:21 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 01:08:47 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@762efe5d: startup date [Fri Oct 28 01:08:47 MSK 2016]; root of context hierarchy
+2016-10-28 01:08:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 01:08:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 01:08:51 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 01:08:51 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 01:08:55 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 01:08:56 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 01:08:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 01:08:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:08:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:08:57 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:08:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:09:03 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-28 01:09:03 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 01:09:03 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 01:09:12 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-28 01:09:12 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-28 01:09:12 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 01:37:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 01:37:11 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:37:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:37:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:37:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:37:14 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 01:37:14 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 01:37:14 INFO  pooling:135 - HHH10001001: Connection properties: {user=root}
+2016-10-28 01:37:14 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 01:37:14 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 01:38:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 01:38:40 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:38:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:38:41 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:38:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:38:42 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 01:38:42 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 01:38:42 INFO  pooling:135 - HHH10001001: Connection properties: {user=root}
+2016-10-28 01:38:42 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 01:38:42 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 01:39:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 01:39:34 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:39:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:39:34 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:39:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:39:35 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 01:39:35 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 01:39:35 INFO  pooling:135 - HHH10001001: Connection properties: {user=root}
+2016-10-28 01:39:35 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 01:39:35 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 01:45:30 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d22bbb7: startup date [Fri Oct 28 01:45:30 MSK 2016]; root of context hierarchy
+2016-10-28 01:45:31 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 01:45:32 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 01:45:33 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 01:45:33 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 01:45:35 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 01:45:35 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 01:45:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 01:45:37 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 01:45:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 01:45:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 01:45:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 01:45:40 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-28 01:45:40 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 01:45:41 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 01:45:48 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-28 01:45:48 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-28 01:45:48 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 02:14:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 02:14:10 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 02:14:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 02:14:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 02:14:10 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 02:14:13 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 02:14:13 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 02:14:13 INFO  pooling:135 - HHH10001001: Connection properties: {user=root}
+2016-10-28 02:14:13 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 02:14:13 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 17:04:47 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3830f1c0: startup date [Fri Oct 28 17:04:47 MSK 2016]; root of context hierarchy
+2016-10-28 17:04:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 17:04:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 17:04:49 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 17:04:49 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 17:04:51 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 17:04:52 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 17:04:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 17:04:53 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 17:04:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 17:04:53 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 17:04:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 17:04:55 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-28 17:04:55 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 17:04:55 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 17:04:58 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-28 17:04:58 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-28 17:04:58 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 22:40:41 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3830f1c0: startup date [Fri Oct 28 22:40:41 MSK 2016]; root of context hierarchy
+2016-10-28 22:40:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 22:40:43 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 22:40:43 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 22:40:43 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 22:40:45 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 22:40:46 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 22:40:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 22:40:47 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 22:40:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 22:40:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 22:40:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 22:40:49 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-28 22:40:49 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 22:40:49 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 22:40:53 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-28 22:40:53 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-28 22:40:53 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 23:06:46 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3830f1c0: startup date [Fri Oct 28 23:06:46 MSK 2016]; root of context hierarchy
+2016-10-28 23:06:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 23:06:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 23:06:49 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 23:06:49 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 23:06:50 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 23:06:51 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 23:06:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 23:06:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:06:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:06:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:06:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:06:55 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-28 23:06:55 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 23:06:55 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 23:06:59 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-28 23:06:59 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-28 23:06:59 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 23:12:59 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3830f1c0: startup date [Fri Oct 28 23:12:59 MSK 2016]; root of context hierarchy
+2016-10-28 23:12:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-28 23:13:00 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-28 23:13:01 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-28 23:13:01 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-28 23:13:03 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-28 23:13:04 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-28 23:13:04 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-28 23:13:05 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:13:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:13:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:13:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:13:08 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-28 23:13:08 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-28 23:13:08 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-28 23:13:12 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-28 23:13:12 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-28 23:13:12 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-28 23:16:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 23:16:33 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:16:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:16:33 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:16:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:16:34 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 23:16:34 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 23:16:34 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-28 23:16:34 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 23:16:34 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 23:17:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 23:17:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:17:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:17:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:17:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:17:53 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 23:17:53 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 23:17:53 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-28 23:17:53 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 23:17:53 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 23:18:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 23:18:20 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:18:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:18:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:18:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:18:21 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 23:18:21 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 23:18:21 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-28 23:18:21 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 23:18:21 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 23:27:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 23:27:47 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:27:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:27:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:27:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:27:48 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 23:27:48 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 23:27:48 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-28 23:27:48 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 23:27:48 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-28 23:32:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: myunit
+	...]
+2016-10-28 23:33:00 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-28 23:33:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-28 23:33:00 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-28 23:33:00 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-28 23:33:01 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-10-28 23:33:01 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testio]
+2016-10-28 23:33:01 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2016-10-28 23:33:01 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2016-10-28 23:33:01 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-10-29 21:24:08 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@470e2030: startup date [Sat Oct 29 21:24:08 MSK 2016]; root of context hierarchy
+2016-10-29 21:24:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-29 21:24:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-29 21:24:10 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-29 21:24:10 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 21:24:12 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-29 21:24:13 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 21:24:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 21:24:14 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-29 21:24:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-29 21:24:14 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-29 21:24:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-29 21:24:16 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-29 21:24:16 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 21:24:16 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-29 21:24:19 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-29 21:24:19 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-29 21:24:19 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2016-10-29 21:33:31 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@43814d18: startup date [Sat Oct 29 21:33:31 MSK 2016]; root of context hierarchy
+2016-10-29 21:33:31 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-context.xml]
+2016-10-29 21:33:32 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [orm-spring-context.xml]
+2016-10-29 21:33:33 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-29 21:33:33 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 21:33:35 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-10-29 21:33:36 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 21:33:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 21:33:37 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-29 21:33:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-29 21:33:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-29 21:33:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-29 21:33:40 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Unknown database 'testio'
+2016-10-29 21:33:40 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 21:33:40 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2016-10-29 21:33:43 WARN  SqlExceptionHelper:129 - SQL Error: 1049, SQLState: 42000
+2016-10-29 21:33:43 ERROR SqlExceptionHelper:131 - Unknown database 'testio'
+2016-10-29 21:33:43 WARN  ClassPathXmlApplicationContext:549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [orm-spring-context.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory

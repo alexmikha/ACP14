@@ -14,19 +14,20 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>OleksandrMykhailov</artifactId>
     <version>1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+    </dependencies>
 
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>commons-lang</groupId>-->
-            <!--<artifactId>commons-lang</artifactId>-->
-            <!--<version>2.5</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>commons-io</groupId>-->
-            <!--<artifactId>commons-io</artifactId>-->
-            <!--<version>2.4</version>-->
-        <!--</dependency>-->
-    <!--</dependencies>-->
-    <packaging>pom</packaging>
+
+    <packaging>jar</packaging>
 
 </project>

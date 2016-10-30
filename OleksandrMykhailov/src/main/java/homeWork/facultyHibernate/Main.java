@@ -16,6 +16,6 @@ public class Main {
 //        menuDao.menu();
 
         EntityManagerFactory managerFaculty = Persistence.
-                createEntityManagerFactory("hibernate-unit");
+                createEntityManagerFactory("faculty_hibernate");
     }
 }
